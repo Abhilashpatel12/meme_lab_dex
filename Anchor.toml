@@ -8,7 +8,7 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-memelab_dex = "gopx3VHB5U3aZXfj4pdCqPRhnj4i4zvv1dqpBAmMSvb"
+memelab_dex = "EdARKxJ9vBQfiapXTqfBQvtLzmwxaPSCNsS5AU5R8DCm"
 
 [programs.localnet]
 memelab_dex = "EdARKxJ9vBQfiapXTqfBQvtLzmwxaPSCNsS5AU5R8DCm"
@@ -17,7 +17,7 @@ memelab_dex = "EdARKxJ9vBQfiapXTqfBQvtLzmwxaPSCNsS5AU5R8DCm"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "https://devnet.helius-rpc.com/?api-key=c6a24faf-7b70-4411-9a49-3510ec881e08"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
